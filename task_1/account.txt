@@ -1,0 +1,5 @@
+address:
+  mainnet: ckb1qyq096j6fav8umcjfkzmy474y9ghldkxdevqlms4ne
+  testnet: ckt1qyq096j6fav8umcjfkzmy474y9ghldkxdevqz7w2l9
+lock_arg: 0xf2ea5a4f587e6f124d85b257d521517fb6c66e58
+lock_hash: 0xe09c68bc5f7b81364f5f7d2c67cba92f88afe4091e8023830cdd37789bb0f791
