@@ -9,4 +9,4 @@ Proof of mission:
 ![alt text](https://github.com/TTNguyenDev/Hackathon-Nervos/blob/main/task_0/ckb_indexer.png)
 
 
-I also show the blocknumbers of my local testnet is the same number on https://explorer.nervos.org/aggron/
+I also show the block numbers of my local test net is the same number with https://explorer.nervos.org/aggron/
