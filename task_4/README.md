@@ -14,8 +14,8 @@ https://explorer.nervos.org/aggron/transaction/0x1ce3480df4296bbf2609b2babdca676
 
 # Screenshot of the console output after submitting a deposit to Layer 2
 
-![deposit to layer 2](./img4.1.png)
-![deposit to layer 2](./img4.2.png)
+![deposit to layer 2](./img4_a.png)
+![deposit to layer 2](./img4_b.png)
 # SUDT ID
 
 ```sh
