@@ -1,6 +1,8 @@
 ## 1. A screenshot of the console output immediately after running the withdraw command.
-
+Using Local testnet:
 ![](./withdraw_money.png)
+Using Public testnet:
+![](./withdraw_money_public_testnet.png)
 
 ## 2. The Ethereum address that you've used for your Layer 2 account (in text format).
 ```sh
