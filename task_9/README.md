@@ -5,7 +5,7 @@
 
 # Using Public testnet:
 
-![](./withdraw_money_public_testnet.png)
+![](./withdraw_money_public.png)
 
 ## 2. The Ethereum address that you've used for your Layer 2 account (in text format).
 ```sh
