@@ -1,6 +1,6 @@
 # Task Submission 1
 
-<img src"./task1.png">
+<img src="./task1.png">
 
 # Task Submission 2
 
