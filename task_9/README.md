@@ -1,6 +1,6 @@
 ## 1. A screenshot of the console output immediately after running the withdraw command.
 
-![](./withdraw.png)
+![](./withdraw_money.png)
 
 ## 2. The Ethereum address that you've used for your Layer 2 account (in text format).
 ```sh
