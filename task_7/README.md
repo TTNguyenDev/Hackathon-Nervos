@@ -1,12 +1,12 @@
-1. Screenshots or video of your application running on Godwoken.
+## 1. Screenshots or video of your application running on Godwoken.
 <img src="./img.png">
 
-2. Link to the GitHub repository with your application which has been ported to Godwoken. This must be a different application than the one covered in this guide.
+## 2. Link to the GitHub repository with your application which has been ported to Godwoken. This must be a different application than the one covered in this guide.
 ```
 https://github.com/TTNguyenDev/blockchain-workshop
 ```
 
-3. If you deployed any smart contracts as part of this tutorial, please provide the transaction hash of the deployment transaction, 
+## 3. If you deployed any smart contracts as part of this tutorial, please provide the transaction hash of the deployment transaction, 
    the deployed contract address, and the ABI of the deployed smart contract. (Provide all in text format.)
 ```
 0x6cb8d54e850eeb15e38b0bf97c6b8000d63901086ddb60aa08ebd33ee8cbbf0b
