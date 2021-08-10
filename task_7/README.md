@@ -6,10 +6,10 @@
 https://github.com/TTNguyenDev/blockchain-workshop
 ```
 
-## 3. If you deployed any smart contracts as part of this tutorial, please provide the transaction hash of the deployment transaction, 
-   the deployed contract address, and the ABI of the deployed smart contract. (Provide all in text format.)
+## 3. If you deployed any smart contracts as part of this tutorial, please provide the transaction hash of the deployment transaction, the deployed contract address, and the ABI of the deployed smart contract. (Provide all in text format.)
 ```
-0x6cb8d54e850eeb15e38b0bf97c6b8000d63901086ddb60aa08ebd33ee8cbbf0b
+Deployed contract address: 0x3940958B18fc233368fBdB656e28a3f1b3cCD150
+Deploy transaction hash: 0x6cb8d54e850eeb15e38b0bf97c6b8000d63901086ddb60aa08ebd33ee8cbbf0b
 ```
 4. ABI
 ```
