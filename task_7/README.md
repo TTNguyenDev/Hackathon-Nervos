@@ -1,6 +1,11 @@
 ## 1. Screenshots or video of your application running on Godwoken.
 <img src="./img.png">
 
+### Youtube video demo
+```sh
+https://www.youtube.com/watch?v=qR3TKn4RgnY
+```
+
 ## 2. Link to the GitHub repository with your application which has been ported to Godwoken. This must be a different application than the one covered in this guide.
 ```
 https://github.com/TTNguyenDev/blockchain-workshop
