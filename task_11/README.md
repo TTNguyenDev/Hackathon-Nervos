@@ -4,7 +4,7 @@
 ![](./1.png)
 ---
 ## 2) A link to the Layer 1 address you funded on the Testnet Explorer:
-
+https://explorer.nervos.org/aggron/address/ckt1qyq096j6fav8umcjfkzmy474y9ghldkxdevqz7w2l9
 ---
 ## 3) A screenshot of the console output immediately after you have successfully submitted a CKByte deposit to your Tron account on Layer 2:
 
