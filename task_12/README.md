@@ -1,7 +1,7 @@
 # Document Porting An Existing Ethereum DApp To Polyjuice
 
 ## Document Porting An Existing Ethereum DApp To Polyjuice
-### Video tutorial: https://www.youtube.com/watch?v=uc2pyQc3ZwI&t=169s
+### Video tutorial: https://www.youtube.com/watch-v=uc2pyQc3ZwI&t=169s
 
 ### There are 9 main step:
 - Have an existing ETH DApp.
@@ -14,14 +14,14 @@
 - Set Higher Gas Limit.
 - Run and test DApp.
 
-### **Step 1 Ñ  Clone an existing ETH DApp**
+### **Step 1 -  Clone an existing ETH DApp**
 ```
 mkdir -p ~/project
 cd ~/projects
 git clone https://github.com/TTNguyenDev/Dapps-Support-ForceBridge -b starter
 ````
 
-### **Step 2 Ñ  Run ETH DApp with ganache**
+### **Step 2 -  Run ETH DApp with ganache**
 Make sure you already install docker before.
 
 ```
@@ -35,7 +35,7 @@ yarn ui
 
 Now open a browser tab http://localhost:3000 to view ETH DApp.
 
-### **Step 3 Ñ  Setup Godwoken Testnet in MetaMask**
+### **Step 3 -  Setup Godwoken Testnet in MetaMask**
 Make sure your browser have a metamask extension.
 Setup a custom RPC following information below:
 ```
@@ -47,7 +47,7 @@ Block Explorer URL (optional): N/A
 ```
 We will use this RPC to interact with Polyjuice DApp.
 
-### **Step 4 Ñ  Install dependencies for Polyjuice**
+### **Step 4 -  Install dependencies for Polyjuice**
 There are two dependencies you need to add to your existing web3 Dapp to get it working with the Layer 2 solution Polyjuice.
 
 The first, @polyjuice-provider/web3, is a custom Polyjuice web3 provider to use instead of the web3 library. It is required for interaction with Nervos Layer 2 smart contracts.
@@ -60,7 +60,7 @@ cd ~/projects/Dapps-Support-ForceBridge
 yarn add @polyjuice-provider/web3@0.0.1-rc7 nervos-godwoken-integration@0.0.6
 ```
 
-### **Step 5 Ñ  Add config file**
+### **Step 5 -  Add config file**
 Create a new configuration file with config.ts name:
 
 ```
@@ -77,7 +77,7 @@ ETH_ACCOUNT_LOCK_CODE_HASH: '0xdeec13a7b8e100579541384ccaf4b5223733e4a5483c3aec9
 }
 ```
 
-### **Step 6 Ñ  Modify some Frontend code**
+### **Step 6 -  Modify some Frontend code**
 Firstly, We will upadte the main UI file. Open the app.tsx file from this url 
 ```
 ~/projects/Dapps-Support-ForceBridge/src/ui
@@ -107,23 +107,23 @@ const web3 = new Web3(provider);
 We replace the old Ethereum web3 instance to the Polyjuice web3 instance.
 At this step, our DApp is capable of communicating with Polyjuice.
 
-### **Step 7 Ñ  Dislay Polyjuice Address on UI**
+### **Step 7 -  Dislay Polyjuice Address on UI**
 
 Next we will display polyjuice Address to user. Add new constant and useEffect hook for this constant.
 ```
 const [polyjuiceAddress, setPolyjuiceAddress] = useState<string | undefined>();
 
 useEffect(() => {
-    if (accounts?.[0]) {
+    if (accounts-.[0]) {
         const addressTranslator = new AddressTranslator();
-        setPolyjuiceAddress(addressTranslator.ethAddressToGodwokenShortAddress(accounts?.[0]));
+        setPolyjuiceAddress(addressTranslator.ethAddressToGodwokenShortAddress(accounts-.[0]));
     } else {
         setPolyjuiceAddress(undefined);
     }
-}, [accounts?.[0]]);
+}, [accounts-.[0]]);
 ```
 
-The useEffect hook will be execute when the accounts?[0] changed.
+The useEffect hook will be execute when the accounts-[0] changed.
 
 Finally, we will display polyjuiceAddress to user. To do this, we will add one new line to html code.
 ```
@@ -132,7 +132,7 @@ Your Polyjuice address: <b>{polyjuiceAddress || ' - '}</b>
 <br />
 ```
 
-### **Step 8 Ñ  Set Higher Gas Limit**
+### **Step 8 -  Set Higher Gas Limit**
 
 Godwoken requires a higher gas limit to be set for transactions on the test network.
 
@@ -208,7 +208,7 @@ to the new version
     }
 ```
 
-### **Step 9 Ñ The final step - Run and test DApp**
+### **Step 9 - The final step - Run and test DApp**
 We already done all config for Polyjuice.
 The final thing is run our app with this command:
 ```
